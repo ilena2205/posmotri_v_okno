@@ -128,7 +128,7 @@ ol {
   color: #fff;
   text-decoration: none;
   display: block;
-  margin: 1px 2px;
+  margin: 2px;
 }
 
 .content__card-link_current {
@@ -152,6 +152,9 @@ ol {
 }
 
 .content__video-card-title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; 
   font-family: "Oswald", sans-serif;
   font-size: 30px;
   font-weight: 700;
